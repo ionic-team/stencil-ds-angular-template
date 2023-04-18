@@ -1,5 +1,13 @@
 # stencil-ds-angular-template
 
+⚠️ This project has been archived. ⚠️
+
+This project is no longer actively maintained.
+
+Please see the [Stencil documentation for using the Angular Framework Wrapper](https://stenciljs.com/docs/angular) for instructions as to how to use [`@stencil/angular-output-target`](https://www.npmjs.com/package/@stencil/angular-output-target)
+
+--- 
+
 This is an example repo of building plugins.
 
 ## Step 1.
