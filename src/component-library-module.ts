@@ -3,8 +3,6 @@ import { defineCustomElements } from "component-library/loader";
 
 import { DemoComponent } from "./directives/proxies";
 
-defineCustomElements(window);
-
 const DECLARATIONS = [
   // proxies
   DemoComponent
@@ -16,4 +14,8 @@ const DECLARATIONS = [
   imports: [],
   providers: []
 })
-export class ComponentLibraryModule {}
+export class ComponentLibraryModule {
+  constructor() {
+    defineCustomElements(window);
+  }
+}
